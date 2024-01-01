@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "swa start src --api-location api",
+    "build": "swa build",
+    "deploy": "swa deploy src --api-location api",
+    "playwright_test": "playwright test"
   },
   "repository": {
     "type": "git",
